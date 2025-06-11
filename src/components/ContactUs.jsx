@@ -33,7 +33,7 @@ const ContactUs = () => {
   }
 
   try {
-    const res = await fetch('https://landingpagebackendsuzoco.onrender.com/api/contact', {
+    const res = await fetch('https://suzocolandingpagebackend.onrender.com/api/contact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
